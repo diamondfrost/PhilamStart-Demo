@@ -1,0 +1,178 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.25em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  position: relative;
+  float: left;
+  color: rgb(255, 255, 255);
+}
+
+._button {
+  display: block;
+  position: fixed;
+  top: 50px;
+  height: 33px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._input {
+  display: block;
+  position: fixed;
+  top: 48px;
+  left: 81%;
+  z-index: 9;
+  width: 15.0833333333%;
+  height: 33px;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+}
+
+.element-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  width: 100%;
+  height: 103px;
+  background-color: rgb(255, 255, 255);
+}
+
+.element-2 {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 1206px;
+  height: 587px;
+  margin-top: 106px;
+  background-color: rgb(0, 0, 0);
+}
+
+.element-3 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 108%;
+  height: 780px;
+  margin-top: -53px;
+  background-color: rgb(194, 32, 74);
+}
+
+.image-1 {
+  position: absolute;
+  top: 55px;
+  left: 93.9166666666%;
+  z-index: 17;
+  width: 18px;
+}
+
+.image-2 {
+  position: fixed;
+  top: 25px;
+  left: 3.6666666666%;
+  z-index: 10;
+  width: 169px;
+}
+
+.image-3 {
+  position: fixed;
+  top: 57px;
+  left: 93.5%;
+  z-index: 6;
+  width: 18px;
+}
+
+.image-4 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 2;
+  width: 1172px;
+  margin: -534px 0 0 0.58073%;
+}
+
+.image-5 {
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 62px;
+  margin: -161px 0 0 90.91406%;
+}
+
+.text-1 {
+  clear: both;
+  z-index: 7;
+  width: 41.6666666666%;
+  min-height: 223px;
+  margin: -546px 0 0 4.58073%;
+  font: 700 2.7em/1.18 Arial;
+}
+
+.text-2 {
+  clear: both;
+  z-index: 3;
+  width: 50.3333333333%;
+  min-height: 293px;
+  margin: -561px 0 0 7.32422%;
+  font-size: 1em;
+}
+
+.text-3 {
+  z-index: 4;
+  width: 32.8333333333%;
+  min-height: 223px;
+  margin: -669px 0 0 7.32422%;
+  font: 700 2.3em/1.18 Arial;
+}
+
+._button-1 {
+  left: 65.7682291666%;
+  z-index: 16;
+  width: 7.4166666666%;
+}
+
+._button-2 {
+  left: 57.3502604166%;
+  z-index: 15;
+  width: 7.4166666666%;
+}
+
+._button-3 {
+  left: 49.1888020833%;
+  z-index: 14;
+  width: 7.4166666666%;
+}
+
+._button-4 {
+  left: 41.0729166666%;
+  z-index: 13;
+  width: 7.4166666666%;
+}
+
+._button-5 {
+  left: 32.7434895833%;
+  z-index: 12;
+  width: 7.4166666666%;
+}
+
+._button-6 {
+  left: 25%;
+  z-index: 11;
+  width: 7.8333333333%;
+}

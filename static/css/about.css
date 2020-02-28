@@ -1,0 +1,148 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.25em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  position: relative;
+  float: left;
+  margin-left: 7.32422%;
+  color: rgb(255, 255, 255);
+}
+
+._button {
+  display: block;
+  position: fixed;
+  top: 50px;
+  width: 7.4166666666%;
+  height: 33px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._input {
+  display: block;
+  position: fixed;
+  top: 50px;
+  left: 81%;
+  z-index: 5;
+  width: 15.0833333333%;
+  height: 33px;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+}
+
+.element-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 103px;
+  background-color: rgb(255, 255, 255);
+}
+
+.element-2 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 0;
+  width: 108%;
+  height: 778px;
+  margin-top: 18px;
+  background-color: rgb(194, 32, 74);
+}
+
+.element-3 {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 33%;
+  height: 339px;
+  margin: -653px 0 0 62%;
+  background-color: rgb(222, 222, 222);
+}
+
+.image-1 {
+  position: fixed;
+  top: 57px;
+  left: 93.5%;
+  z-index: 14;
+  width: 18px;
+}
+
+.image-2 {
+  position: fixed;
+  top: 25px;
+  left: 3.67%;
+  z-index: 6;
+  width: 169px;
+}
+
+.image-3 {
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 18px;
+  margin: 67px 0 0 93.5%;
+}
+
+.text-1 {
+  clear: both;
+  z-index: 4;
+  width: 50.3333333333%;
+  min-height: 293px;
+  margin-top: -561px;
+  font-size: 1em;
+}
+
+.text-2 {
+  z-index: 11;
+  width: 32.8333333333%;
+  min-height: 223px;
+  margin-top: -669px;
+  font: 700 2.3em/1.18 Arial;
+}
+
+._button-1 {
+  left: 65.7682291666%;
+  z-index: 13;
+}
+
+._button-2 {
+  left: 57.3502604166%;
+  z-index: 12;
+}
+
+._button-3 {
+  left: 49.1888020833%;
+  z-index: 10;
+}
+
+._button-4 {
+  left: 41.0729166666%;
+  z-index: 9;
+}
+
+._button-5 {
+  left: 32.7434895833%;
+  z-index: 8;
+}
+
+._button-6 {
+  left: 24.9973958333%;
+  z-index: 7;
+}
