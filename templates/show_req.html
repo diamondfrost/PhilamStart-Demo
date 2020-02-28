@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div class="container">
+  <h1 class="page-header">Show Requests</h1>
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="alert alert-success">
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endwith %}
+
+
+  <div class="row">
+    <table>
+      <tr>
+        <td>ID</td>
+        <td>First Name</td>
+        <td>Middle Name</td>
+        <td>Last Name</td>
+        <td>Birth Month</td>
+        <td>Birth Day</td>
+        <td>Birth Year</td>
+        <td>Contact Number</td>
+        <td>Email</td>
+        <td>Policy Name</td>
+        <td>Account Number</td>
+        <td>Last Interaction Month</td>
+        <td>Last Interaction Year</td>
+        <td>Benefits</td>
+        <td>Last Agent</td>
+      </tr>
+      {% for request in requests %}
+      <tr>
+        <td>{{ request.query_id }}</td>
+        <td>{{ request.first_name }}</td>
+        <td>{{ request.middle_name }}</td>
+        <td>{{ request.last_name }}</td>
+        <td>{{ request.birth_month }}</td>
+        <td>{{ request.birth_day }}</td>
+        <td>{{ request.birth_year }}</td>
+        <td>{{ request.contact_num }}</td>
+        <td>{{ request.email_add }}</td>
+        <td>{{ request.policy_name }}</td>
+        <td>{{ request.account_num }}</td>
+        <td>{{ request.last_int_month }}</td>
+        <td>{{ request.last_int_year }}</td>
+        <td>{{ request.benefits }}</td>
+        <td>{{ request.last_agent }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+{% endblock %}
