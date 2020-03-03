@@ -1,5 +1,5 @@
 # PhilamStart Demo
-A demo local web-server that will feature some add-ons to the PhilamLife Ecosystem.
+A demo local web-server made using Python Flask and SQLAlchemy that features some add-ons to the PhilamLife Ecosystem.
 
 ## How to run
 1. Install dependencies
